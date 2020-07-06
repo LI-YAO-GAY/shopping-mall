@@ -1,0 +1,25 @@
+<template>
+  <div>
+    <template v-slot:num>
+      <div>个人资料</div>
+    </template>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "",
+  props: {},
+  components: {},
+  data() {
+    return {};
+  },
+  methods: {},
+  mounted() {},
+  watch: {},
+  computed: {}
+};
+</script>
+
+<style scoped lang='scss'>
+</style>

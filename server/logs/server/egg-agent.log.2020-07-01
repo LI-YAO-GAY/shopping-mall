@@ -1,0 +1,19 @@
+2020-07-01 00:00:02,142 INFO 11780 [egg-logrotator] agent logger reload: got log-reload message
+2020-07-01 08:41:02,651 INFO 10948 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-01 08:41:02,673 INFO 10948 [egg:core] dump config after load, 11ms
+2020-07-01 08:41:04,668 INFO 10948 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-07-01 08:41:04,668 INFO 10948 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-07-01 08:41:04,669 INFO 10948 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-07-01 08:41:04,669 INFO 10948 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-07-01 08:41:04,669 INFO 10948 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-07-01 08:41:04,669 INFO 10948 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-07-01 08:41:04,670 INFO 10948 [egg-watcher:agent] watcher start success
+2020-07-01 08:41:05,431 INFO 10948 [egg:core] dump config after ready, 746ms
+2020-07-01 19:58:22,392 ERROR 10948 nodejs.ClusterClientNoResponseError: client no response in 3252836ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 10948
+hostname: DESKTOP-H5UU7FJ
+

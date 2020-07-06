@@ -1,0 +1,9 @@
+2020-07-03 08:30:39,440 ERROR 3908 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3908
+hostname: DESKTOP-H5UU7FJ
+

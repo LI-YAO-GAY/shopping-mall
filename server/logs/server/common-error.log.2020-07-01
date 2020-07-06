@@ -1,0 +1,8 @@
+2020-07-01 19:58:21,479 ERROR 10948 nodejs.ClusterClientNoResponseError: client no response in 3252836ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 10948
+hostname: DESKTOP-H5UU7FJ
+

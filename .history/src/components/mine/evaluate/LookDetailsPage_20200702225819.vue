@@ -1,0 +1,114 @@
+<template>
+  <div>
+    <Top>
+      <template v-slot:default>评价详情</template>
+    </Top>
+    <van-card class="relative">
+      <template #thumb>
+        <van-image round width="4rem" height="4rem" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+      </template>
+      <template #title>
+        <div class="m-t-10 F16 m-b-20 m-l-10" v-if="lookItem.anonymous===true">匿名用户</div>
+      </template>
+      <template #num>
+        <div class="F14 m-l-10 absolute time">{{lookItem.comment_time}}</div>
+      </template>
+      <template #footer>
+        <div class="F14 t-align-l">评价内容:{{lookItem.content}}</div>
+      </template>
+      <template #desc>
+        <van-rate
+          v-model="lookItem.rate"
+          :size="18"
+          color="#ee0a24"
+          void-icon="star"
+          void-color="#eee"
+          class="m-l-10"
+        />
+      </template>
+    </van-card>
+    <div v-for="(item,index) in lookItem.goods" :key="index">
+      <div class="flex m-lr-10 a-center Item">
+        <div class="img">
+          <img :src="item.image" alt class="w100p" />
+        </div>
+        <div class="m-l-10 name">{{item.name}}</div>
+        <div class="carts flex a-center j-center m-l-40">
+          <van-icon name="shopping-cart-o" size="24px" class="color-red" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import Top from "../../top/Top";
+import dayjs from "dayjs";
+export default {
+  name: "",
+  props: {},
+  components: {
+    Top
+  },
+  data() {
+    return {
+      lookItem: {},
+      id1: "",
+      id2: "",
+    };
+  },
+  methods: {},
+  mounted() {
+    this.lookItem = this.$route.query.item;
+    console.log(this.lookItem);
+    this.lookItem = JSON.parse(localStorage.getItem("lookItem"));
+    // this.id1 = this.$route.query.id1;
+    // this.id2 = this.$route.query.id2;
+    // console.log(this.id);
+    // this.$api
+    //   .getEvaluateOne({id:this.id1,id:this.id2})
+    //   .then(res => {
+    //     console.log(res);
+    //     this.EvaluateItem=res
+    //   })
+    //   .catch(err => {
+    //     console.log(err);
+    //   });
+  },
+  watch: {},
+  computed: {}
+};
+</script>
+
+<style scoped lang='scss'>
+.img {
+  width: 80px;
+  height: 80px;
+}
+.carts {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(255, 230, 226);
+}
+.Item {
+  border-top: 1px solid rgb(242, 242, 242);
+}
+.van-card:not(:first-child) {
+  margin: 0;
+}
+.van-card {
+  background: #fff;
+}
+.time{
+  top:20px;
+  left:100px;
+}
+.t-align-l{
+  text-align: left;
+}
+.van-card__thumb{
+  width: 0px;
+  height: 0px;
+}
+</style>

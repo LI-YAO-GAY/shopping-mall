@@ -1,0 +1,18 @@
+2020-06-30 08:43:30,688 INFO 1316 [egg-schedule]: register schedule D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-30 08:43:30,688 INFO 1316 [egg-schedule]: register schedule D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-06-30 08:43:30,688 INFO 1316 [egg-schedule]: register schedule D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-30 08:43:54,221 INFO 12260 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71165784ms at 2020-07-01 04:30:00.005
+2020-06-30 08:43:54,222 INFO 12260 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 54965779ms at 2020-07-01 00:00:00.001
+2020-06-30 08:43:54,222 INFO 12260 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54966778ms at 2020-07-01 00:00:01.000
+2020-06-30 20:08:30,098 INFO 12352 [egg-schedule]: register schedule D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-30 20:08:30,098 INFO 12352 [egg-schedule]: register schedule D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-06-30 20:08:30,098 INFO 12352 [egg-schedule]: register schedule D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-30 20:08:45,133 INFO 11780 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 30074874ms at 2020-07-01 04:30:00.007
+2020-06-30 20:08:45,133 INFO 11780 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 13874867ms at 2020-07-01 00:00:00.000
+2020-06-30 20:08:45,134 INFO 11780 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 13875867ms at 2020-07-01 00:00:01.001
+2020-07-01 00:00:01,091 INFO 12352 [Job#15935328010499879224477331991] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js executing by app
+2020-07-01 00:00:01,111 INFO 12352 [Job#15935328010499879224477331991] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js execute succeed, used 19ms
+2020-07-01 00:00:01,077 INFO 11780 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 86398941ms at 2020-07-02 00:00:00.018
+2020-07-01 00:00:02,042 INFO 12352 [Job#15935328020399879234363797001] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-07-01 00:00:02,114 INFO 12352 [Job#15935328020399879234363797001] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 71ms
+2020-07-01 00:00:02,053 INFO 11780 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86398960ms at 2020-07-02 00:00:01.013

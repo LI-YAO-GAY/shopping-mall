@@ -1,0 +1,260 @@
+2020-06-28 23:05:59,670 ERROR 8848 [-/127.0.0.1/-/59ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "" at path "_id" for model "Address"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"\""
+kind: "ObjectId"
+value: ""
+path: "_id"
+reason: {}
+pid: 8848
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 09:19:11,309 ERROR 9448 [-/127.0.0.1/-/16ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "" at path "_id" for model "Address"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"\""
+kind: "ObjectId"
+value: ""
+path: "_id"
+reason: {}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:46:36,805 ERROR 9448 [-/127.0.0.1/-/69ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, mallPrice: 4 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, mallPrice: 4 }\""
+kind: "Number"
+value: {"count":1,"mallPrice":4}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:46:37,058 ERROR 9448 [-/127.0.0.1/-/8ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, mallPrice: 6.5 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, mallPrice: 6.5 }\""
+kind: "Number"
+value: {"count":1,"mallPrice":6.5}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:46:37,075 ERROR 9448 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, mallPrice: 9.9 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, mallPrice: 9.9 }\""
+kind: "Number"
+value: {"count":1,"mallPrice":9.9}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:46:37,087 ERROR 9448 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, mallPrice: 8 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, mallPrice: 8 }\""
+kind: "Number"
+value: {"count":1,"mallPrice":8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:46:37,097 ERROR 9448 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, mallPrice: 6.9 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, mallPrice: 6.9 }\""
+kind: "Number"
+value: {"count":2,"mallPrice":6.9}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:46:37,111 ERROR 9448 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":4,"mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:46:37,125 ERROR 9448 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, mallPrice: 109 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, mallPrice: 109 }\""
+kind: "Number"
+value: {"count":2,"mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:46:37,380 ERROR 9448 [-/127.0.0.1/-/1ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, mallPrice: 6 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, mallPrice: 6 }\""
+kind: "Number"
+value: {"count":1,"mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:47:16,355 ERROR 9448 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, id: 'e7ebc6153924459287468104768bee00', mallPrice: 4 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, id: 'e7ebc6153924459287468104768bee00', mallPrice: 4 }\""
+kind: "Number"
+value: {"count":1,"id":"e7ebc6153924459287468104768bee00","mallPrice":4}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:47:16,661 ERROR 9448 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, id: 'af117ed90b624318914fd4b42001216c', mallPrice: 6.5 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, id: 'af117ed90b624318914fd4b42001216c', mallPrice: 6.5 }\""
+kind: "Number"
+value: {"count":1,"id":"af117ed90b624318914fd4b42001216c","mallPrice":6.5}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:47:16,672 ERROR 9448 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, id: 'f36f6dd8f62247d5846eaa9b3f269cbc', mallPrice: 9.9 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, id: 'f36f6dd8f62247d5846eaa9b3f269cbc', mallPrice: 9.9 }\""
+kind: "Number"
+value: {"count":1,"id":"f36f6dd8f62247d5846eaa9b3f269cbc","mallPrice":9.9}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:47:16,684 ERROR 9448 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, id: 'ad176e397858448a854dc50371334faf', mallPrice: 8 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, id: 'ad176e397858448a854dc50371334faf', mallPrice: 8 }\""
+kind: "Number"
+value: {"count":1,"id":"ad176e397858448a854dc50371334faf","mallPrice":8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:47:16,694 ERROR 9448 [-/127.0.0.1/-/4ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: '4cf7744443f94557b7c6ad37dca9c4db', mallPrice: 6.9 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: '4cf7744443f94557b7c6ad37dca9c4db', mallPrice: 6.9 }\""
+kind: "Number"
+value: {"count":2,"id":"4cf7744443f94557b7c6ad37dca9c4db","mallPrice":6.9}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:47:16,706 ERROR 9448 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":4,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:47:16,715 ERROR 9448 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":2,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 16:47:16,977 ERROR 9448 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 1, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 1, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":1,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 9448
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-29 19:53:30,069 ERROR 10100 nodejs.ClusterClientNoResponseError: client no response in 3112417ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 10100
+hostname: DESKTOP-H5UU7FJ
+

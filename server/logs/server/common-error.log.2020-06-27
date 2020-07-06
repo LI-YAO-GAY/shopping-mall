@@ -1,0 +1,1184 @@
+2020-06-25 13:04:58,918 ERROR 6868 [-/127.0.0.1/-/6ms POST /v1/cancelCollection] nodejs.CastError: Cast to string failed for value "{ id: '24afea564e5248b5a2bc59da95f09911' }" at path "cid" for model "Collection"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '24afea564e5248b5a2bc59da95f09911' }\""
+kind: "string"
+value: {"id":"24afea564e5248b5a2bc59da95f09911"}
+path: "cid"
+reason: null
+pid: 6868
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-25 22:47:47,960 ERROR 8480 nodejs.ClusterClientNoResponseError: client no response in 7430796ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 8480
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 14:58:18,982 ERROR 10404 [-/127.0.0.1/-/9ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 14:58:19,045 ERROR 10404 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:00:48,499 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: {} }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: {} }\""
+kind: "string"
+value: {"id":{}}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:00:48,509 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: {} }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: {} }\""
+kind: "string"
+value: {"id":{}}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:01:02,313 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:01:02,325 ERROR 10404 [-/127.0.0.1/-/4ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:01:14,472 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:01:14,482 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:01:15,209 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:01:15,218 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:01:39,587 ERROR 10404 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef462637c8e571ad44d7153' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef462637c8e571ad44d7153' }\""
+kind: "string"
+value: {"id":"5ef462637c8e571ad44d7153"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:01:39,598 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef449ab7c8e571ad44d7152' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef449ab7c8e571ad44d7152' }\""
+kind: "string"
+value: {"id":"5ef449ab7c8e571ad44d7152"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:02:18,502 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:02:18,512 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:02:19,366 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:02:19,673 ERROR 10404 [-/127.0.0.1/-/5ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:02:19,882 ERROR 10404 [-/127.0.0.1/-/4ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:02:19,899 ERROR 10404 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:05:01,777 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:06:45,576 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:06:45,590 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:14:11,878 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef462637c8e571ad44d7153' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef462637c8e571ad44d7153' }\""
+kind: "string"
+value: {"id":"5ef462637c8e571ad44d7153"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:14:11,890 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef449ab7c8e571ad44d7152' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef449ab7c8e571ad44d7152' }\""
+kind: "string"
+value: {"id":"5ef449ab7c8e571ad44d7152"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:15:59,099 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:15:59,109 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:16:14,925 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:16:14,936 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:18:46,680 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:18:47,241 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:19:33,889 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:21:27,111 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:35:39,856 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:39:50,809 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:40:11,848 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:44:26,108 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 15:45:06,155 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:10:01,879 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:14:02,942 ERROR 10404 [-/127.0.0.1/-/4ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:14:05,507 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:16:05,899 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:19:47,025 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:19:47,039 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:19:47,048 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:19:47,058 ERROR 10404 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:20:28,545 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:21:06,971 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:23:09,656 ERROR 10404 [-/127.0.0.1/-/4ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:23:10,518 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:23:14,428 ERROR 10404 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:23:21,916 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:23:35,448 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:24:23,557 ERROR 10404 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:30:28,976 ERROR 10404 [-/127.0.0.1/-/29ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  id: [
+    {
+      add_time: 1593156853994,
+      check: false,
+      count: 1,
+      _id: '5ef5a4f5ae73d228a4a977b2',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 4,
+      cid: '4ae4e2e2c1df45308be5011a97aae537',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180412173646_7050.jpg',
+      name: '乐百氏脉动芒果味600ml/瓶',
+      mallPrice: 4,
+      __v: 0
+    },
+    {
+      add_time: 1593074275482,
+      check: false,
+      count: 1,
+      _id: '5ef462637c8e571ad44d7153',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 109,
+      cid: '418fc60784d04e71beffe1ce5174c947',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',
+      name: '睿嫣白檀香护发素500ml/瓶',
+      mallPrice: 109,
+      __v: 0
+    },
+    {
+      add_time: 1593067947963,
+      check: false,
+      count: 2,
+      _id: '5ef449ab7c8e571ad44d7152',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 6,
+      cid: '24afea564e5248b5a2bc59da95f09911',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',
+      name: '果倍爽橙汁饮料330ml/瓶',
+      mallPrice: 6,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+  id: [
+    {
+      add_time: 1593156853994,
+      check: false,
+      count: 1,
+      _id: '5ef5a4f5ae73d228a4a977b2',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 4,
+      cid: '4ae4e2e2c1df45308be5011a97aae537',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180412173646_7050.jpg',
+      name: '乐百氏脉动芒果味600ml/瓶',
+      mallPrice: 4,
+      __v: 0
+    },
+    {
+      add_time: 1593074275482,
+      check: false,
+      count: 1,
+      _id: '5ef462637c8e571ad44d7153',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 109,
+      cid: '418fc60784d04e71beffe1ce5174c947',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',
+      name: '睿嫣白檀香护发素500ml/瓶',
+      mallPrice: 109,
+      __v: 0
+    },
+    {
+      add_time: 1593067947963,
+      check: false,
+      count: 2,
+      _id: '5ef449ab7c8e571ad44d7152',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 6,
+      cid: '24afea564e5248b5a2bc59da95f09911',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',
+      name: '果倍爽橙汁饮料330ml/瓶',
+      mallPrice: 6,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  id: [\n    {\n      add_time: 1593156853994,\n      check: false,\n      count: 1,\n      _id: '5ef5a4f5ae73d228a4a977b2',\n      uid: '5ef1988c61816938048749a9',\n      present_price: 4,\n      cid: '4ae4e2e2c1df45308be5011a97aae537',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180412173646_7050.jpg',\n      name: '乐百氏脉动芒果味600ml/瓶',\n      mallPrice: 4,\n      __v: 0\n    },\n    {\n      add_time: 1593074275482,\n      check: false,\n      count: 1,\n      _id: '5ef462637c8e571ad44d7153',\n      uid: '5ef1988c61816938048749a9',\n      present_price: 109,\n      cid: '418fc60784d04e71beffe1ce5174c947',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',\n      name: '睿嫣白檀香护发素500ml/瓶',\n      mallPrice: 109,\n      __v: 0\n    },\n    {\n      add_time: 1593067947963,\n      check: false,\n      count: 2,\n      _id: '5ef449ab7c8e571ad44d7152',\n      uid: '5ef1988c61816938048749a9',\n      present_price: 6,\n      cid: '24afea564e5248b5a2bc59da95f09911',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',\n      name: '果倍爽橙汁饮料330ml/瓶',\n      mallPrice: 6,\n      __v: 0\n    }\n  ]\n}\""
+kind: "string"
+value: {"id":[{"add_time":1593156853994,"check":false,"count":1,"_id":"5ef5a4f5ae73d228a4a977b2","uid":"5ef1988c61816938048749a9","present_price":4,"cid":"4ae4e2e2c1df45308be5011a97aae537","image_path":"http://images.baixingliangfan.cn/compressedPic/20180412173646_7050.jpg","name":"乐百氏脉动芒果味600ml/瓶","mallPrice":4,"__v":0},{"add_time":1593074275482,"check":false,"count":1,"_id":"5ef462637c8e571ad44d7153","uid":"5ef1988c61816938048749a9","present_price":109,"cid":"418fc60784d04e71beffe1ce5174c947","image_path":"http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg","name":"睿嫣白檀香护发素500ml/瓶","mallPrice":109,"__v":0},{"add_time":1593067947963,"check":false,"count":2,"_id":"5ef449ab7c8e571ad44d7152","uid":"5ef1988c61816938048749a9","present_price":6,"cid":"24afea564e5248b5a2bc59da95f09911","image_path":"http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg","name":"果倍爽橙汁饮料330ml/瓶","mallPrice":6,"__v":0}]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:32:35,906 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: {} }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: {} }\""
+kind: "string"
+value: {"id":{}}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:37:18,856 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:37:22,798 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:37:24,121 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '6694401a30a940f6ae437d541b7fd26d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '6694401a30a940f6ae437d541b7fd26d' }\""
+kind: "string"
+value: {"id":"6694401a30a940f6ae437d541b7fd26d"}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:40:24,307 ERROR 10404 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  id: [
+    {
+      add_time: 1593156853994,
+      check: false,
+      count: 1,
+      _id: '5ef5a4f5ae73d228a4a977b2',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 4,
+      cid: '4ae4e2e2c1df45308be5011a97aae537',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180412173646_7050.jpg',
+      name: '乐百氏脉动芒果味600ml/瓶',
+      mallPrice: 4,
+      __v: 0
+    },
+    {
+      add_time: 1593074275482,
+      check: false,
+      count: 1,
+      _id: '5ef462637c8e571ad44d7153',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 109,
+      cid: '418fc60784d04e71beffe1ce5174c947',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',
+      name: '睿嫣白檀香护发素500ml/瓶',
+      mallPrice: 109,
+      __v: 0
+    },
+    {
+      add_time: 1593067947963,
+      check: false,
+      count: 2,
+      _id: '5ef449ab7c8e571ad44d7152',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 6,
+      cid: '24afea564e5248b5a2bc59da95f09911',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',
+      name: '果倍爽橙汁饮料330ml/瓶',
+      mallPrice: 6,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+  id: [
+    {
+      add_time: 1593156853994,
+      check: false,
+      count: 1,
+      _id: '5ef5a4f5ae73d228a4a977b2',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 4,
+      cid: '4ae4e2e2c1df45308be5011a97aae537',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180412173646_7050.jpg',
+      name: '乐百氏脉动芒果味600ml/瓶',
+      mallPrice: 4,
+      __v: 0
+    },
+    {
+      add_time: 1593074275482,
+      check: false,
+      count: 1,
+      _id: '5ef462637c8e571ad44d7153',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 109,
+      cid: '418fc60784d04e71beffe1ce5174c947',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',
+      name: '睿嫣白檀香护发素500ml/瓶',
+      mallPrice: 109,
+      __v: 0
+    },
+    {
+      add_time: 1593067947963,
+      check: false,
+      count: 2,
+      _id: '5ef449ab7c8e571ad44d7152',
+      uid: '5ef1988c61816938048749a9',
+      present_price: 6,
+      cid: '24afea564e5248b5a2bc59da95f09911',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',
+      name: '果倍爽橙汁饮料330ml/瓶',
+      mallPrice: 6,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  id: [\n    {\n      add_time: 1593156853994,\n      check: false,\n      count: 1,\n      _id: '5ef5a4f5ae73d228a4a977b2',\n      uid: '5ef1988c61816938048749a9',\n      present_price: 4,\n      cid: '4ae4e2e2c1df45308be5011a97aae537',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180412173646_7050.jpg',\n      name: '乐百氏脉动芒果味600ml/瓶',\n      mallPrice: 4,\n      __v: 0\n    },\n    {\n      add_time: 1593074275482,\n      check: false,\n      count: 1,\n      _id: '5ef462637c8e571ad44d7153',\n      uid: '5ef1988c61816938048749a9',\n      present_price: 109,\n      cid: '418fc60784d04e71beffe1ce5174c947',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',\n      name: '睿嫣白檀香护发素500ml/瓶',\n      mallPrice: 109,\n      __v: 0\n    },\n    {\n      add_time: 1593067947963,\n      check: false,\n      count: 2,\n      _id: '5ef449ab7c8e571ad44d7152',\n      uid: '5ef1988c61816938048749a9',\n      present_price: 6,\n      cid: '24afea564e5248b5a2bc59da95f09911',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',\n      name: '果倍爽橙汁饮料330ml/瓶',\n      mallPrice: 6,\n      __v: 0\n    }\n  ]\n}\""
+kind: "string"
+value: {"id":[{"add_time":1593156853994,"check":false,"count":1,"_id":"5ef5a4f5ae73d228a4a977b2","uid":"5ef1988c61816938048749a9","present_price":4,"cid":"4ae4e2e2c1df45308be5011a97aae537","image_path":"http://images.baixingliangfan.cn/compressedPic/20180412173646_7050.jpg","name":"乐百氏脉动芒果味600ml/瓶","mallPrice":4,"__v":0},{"add_time":1593074275482,"check":false,"count":1,"_id":"5ef462637c8e571ad44d7153","uid":"5ef1988c61816938048749a9","present_price":109,"cid":"418fc60784d04e71beffe1ce5174c947","image_path":"http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg","name":"睿嫣白檀香护发素500ml/瓶","mallPrice":109,"__v":0},{"add_time":1593067947963,"check":false,"count":2,"_id":"5ef449ab7c8e571ad44d7152","uid":"5ef1988c61816938048749a9","present_price":6,"cid":"24afea564e5248b5a2bc59da95f09911","image_path":"http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg","name":"果倍爽橙汁饮料330ml/瓶","mallPrice":6,"__v":0}]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:47:03,320 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: [ '6694401a30a940f6ae437d541b7fd26d' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: [ '6694401a30a940f6ae437d541b7fd26d' ] }\""
+kind: "string"
+value: {"id":["6694401a30a940f6ae437d541b7fd26d"]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:47:36,166 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: [ '6694401a30a940f6ae437d541b7fd26d' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: [ '6694401a30a940f6ae437d541b7fd26d' ] }\""
+kind: "string"
+value: {"id":["6694401a30a940f6ae437d541b7fd26d"]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:49:12,260 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: [ '6694401a30a940f6ae437d541b7fd26d' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: [ '6694401a30a940f6ae437d541b7fd26d' ] }\""
+kind: "string"
+value: {"id":["6694401a30a940f6ae437d541b7fd26d"]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:51:21,585 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: [ '6694401a30a940f6ae437d541b7fd26d' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: [ '6694401a30a940f6ae437d541b7fd26d' ] }\""
+kind: "string"
+value: {"id":["6694401a30a940f6ae437d541b7fd26d"]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:57:50,087 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: [ null ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: [ null ] }\""
+kind: "string"
+value: {"cid":[null]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:58:17,886 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ uid: [ null ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ uid: [ null ] }\""
+kind: "string"
+value: {"uid":[null]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 16:58:47,384 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ _id: [ null ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ _id: [ null ] }\""
+kind: "string"
+value: {"_id":[null]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 17:01:49,613 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ _id_: [ null ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ _id_: [ null ] }\""
+kind: "string"
+value: {"_id_":[null]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 17:02:56,923 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ _id1: [ null ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ _id1: [ null ] }\""
+kind: "string"
+value: {"_id1":[null]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 17:06:10,358 ERROR 10404 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ _id1: [ null ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ _id1: [ null ] }\""
+kind: "string"
+value: {"_id1":[null]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 17:09:22,579 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 17:09:54,727 ERROR 10404 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ _id1: [ null ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ _id1: [ null ] }\""
+kind: "string"
+value: {"_id1":[null]}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-26 17:19:20,500 ERROR 10404 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 10404
+hostname: DESKTOP-H5UU7FJ
+

@@ -1,0 +1,11 @@
+2020-07-05 00:00:01,082 INFO 9772 [egg-logrotator] agent logger reload: got log-reload message
+2020-07-05 10:30:42,238 INFO 12240 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-05 10:30:42,273 INFO 12240 [egg:core] dump config after load, 17ms
+2020-07-05 10:30:42,642 INFO 12240 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-07-05 10:30:42,642 INFO 12240 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-07-05 10:30:42,644 INFO 12240 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-07-05 10:30:42,644 INFO 12240 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-07-05 10:30:42,645 INFO 12240 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-07-05 10:30:42,645 INFO 12240 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-07-05 10:30:42,646 INFO 12240 [egg-watcher:agent] watcher start success
+2020-07-05 10:30:42,677 INFO 12240 [egg:core] dump config after ready, 12ms

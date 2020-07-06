@@ -1,0 +1,1045 @@
+2020-06-23 09:32:04,230 ERROR 14340 [-/127.0.0.1/-/154ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:32:47,621 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:35:52,725 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:35:53,563 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:36:15,595 ERROR 14340 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:37:08,532 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:38:38,687 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:38:39,554 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:38:40,074 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:39:12,449 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:39:17,761 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:39:18,515 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:40:07,874 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:40:26,360 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:40:27,706 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:42:02,051 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:42:03,596 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:42:06,547 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:42:07,189 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:42:08,495 ERROR 14340 [-/127.0.0.1/-/9ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:42:10,068 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:43:25,655 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:55:42,123 ERROR 14340 [-/127.0.0.1/-/10ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:56:59,995 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:57:54,435 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:58:28,657 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:58:51,762 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 09:59:23,316 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:00:48,833 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:21,342 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:22,051 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:31,880 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:33,490 ERROR 14340 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:34,543 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:35,332 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:35,649 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:36,809 ERROR 14340 [-/127.0.0.1/-/10ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:38,243 ERROR 14340 [-/127.0.0.1/-/8ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:38,751 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:39,455 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:39,620 ERROR 14340 [-/127.0.0.1/-/7ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:39,926 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:40,234 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:42,917 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:43,238 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:43,562 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:43,854 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:44,160 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:44,455 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:44,778 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:01:45,098 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:03:17,074 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:03:41,658 ERROR 14340 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:04:53,107 ERROR 14340 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 10:06:16,660 ERROR 14340 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 14340
+hostname: DESKTOP-H5UU7FJ
+

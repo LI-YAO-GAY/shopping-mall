@@ -1,0 +1,38 @@
+<template>
+ <div>
+<CategoryPage></CategoryPage>
+ </div>
+</template>
+
+<script>
+import CategoryPage from '../../components/category/CategoryPage'
+ export default {
+   name: 'Category',
+   props: {
+   },
+   components: {
+CategoryPage
+   },
+   data () {
+     return {
+     category:[]
+     }
+   },
+   methods: {
+
+   },
+   mounted() {
+   this.json.parse(category) = this.$route.query.category
+   },
+   watch: {
+
+   },
+   computed: {
+
+   }
+ }
+</script>
+
+<style scoped lang='scss'>
+
+</style>

@@ -1,0 +1,33 @@
+<template>
+  <div id="app">
+    <router-view />
+  </div>
+</template>
+<script>
+export default {
+  provide() {
+    return {
+      reload: this.reload
+    };
+  },
+  data() {
+    return {
+      isRouterAlive: true
+    };
+  },
+  methods: {
+    reload() {
+      (this.isRouterAlive = false),
+        this.$nextTick(function() {
+          this.isRouterAlive = true;
+        });
+    }
+  }
+
+  // inject: ["reload"],  写在name上面
+  // this.reload()   调用自动刷新当前页面
+};
+</script>
+<style lang="scss">
+@import "./style/currency";
+</style>

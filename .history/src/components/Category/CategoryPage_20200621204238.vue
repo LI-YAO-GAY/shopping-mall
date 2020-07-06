@@ -1,0 +1,74 @@
+<template>
+  <div>
+    <div class="flex">
+      <div class="flex a-column">
+        <div v-for="item in CategoryData" :key="item.id">{{item.mallCategoryName}}</div>
+      </div>
+      <div class="flex a-column">
+        <div v-for="(item,index) in CategoryData" :key="index">
+          <div class="flex">
+            <div v-for="(item1,index) in item.bxMallSubDto" :key="index">
+              <van-tabs v-model="active">
+                <van-tab :title="item1.mallSubName"></van-tab>
+              </van-tabs>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "",
+  props: {},
+  components: {},
+  data() {
+    return {
+      active: 2,
+      items: [{ text: "分组 1" }, { text: "分组 2" }]
+    };
+  },
+  methods: {
+   TabScroll() {
+      // console.log(this.recommend.length);
+      let width = this.recommend.length * 125;
+      //console.log(width);
+      this.$refs.tabcontent.style.width = width + "px";
+      this.$nextTick(() => {
+        if (!this.scroll) {
+          this.scroll = new BScroll(this.$refs.tab, {
+            startX: 0,
+            click: true,
+            scrollX: true,
+            scrollY: false, //忽略竖直方向的滚动
+            eventPassthrough: "vertical"
+          });
+        } else {
+          this.scroll.refresh();
+        }
+      });
+    }
+
+  },
+  mounted() {
+    // this.$api.getClassification().then(res=>{
+    //  console.log(res);
+    // }).catch(err=>{
+    //   console.log(err)
+    // })
+    //console.log(this.CategoryData);
+    this.TabScroll();
+  },
+  watch: {},
+  computed: {
+    CategoryData() {
+      return this.$store.state.CategoryData;
+    }
+  }
+};
+</script>
+
+<style scoped lang='scss'>
+</style>

@@ -1,0 +1,39 @@
+2020-06-28 00:00:01,051 INFO 5032 [egg-logrotator] agent logger reload: got log-reload message
+2020-06-28 08:28:26,491 INFO 10748 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-28 08:28:26,680 INFO 10748 [egg:core] dump config after load, 157ms
+2020-06-28 08:28:28,264 INFO 10748 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-06-28 08:28:28,265 INFO 10748 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-06-28 08:28:28,267 INFO 10748 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-06-28 08:28:28,268 INFO 10748 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-06-28 08:28:28,269 INFO 10748 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-06-28 08:28:28,270 INFO 10748 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-06-28 08:28:28,271 INFO 10748 [egg-watcher:agent] watcher start success
+2020-06-28 08:28:29,032 INFO 10748 [egg:core] dump config after ready, 71ms
+2020-06-28 19:51:53,798 INFO 5840 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-28 19:51:53,913 INFO 5840 [egg:core] dump config after load, 69ms
+2020-06-28 19:51:54,343 INFO 5840 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-06-28 19:51:54,343 INFO 5840 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-06-28 19:51:54,344 INFO 5840 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-06-28 19:51:54,344 INFO 5840 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-06-28 19:51:54,344 INFO 5840 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-06-28 19:51:54,344 INFO 5840 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-06-28 19:51:54,345 INFO 5840 [egg-watcher:agent] watcher start success
+2020-06-28 19:51:54,479 INFO 5840 [egg:core] dump config after ready, 54ms
+2020-06-29 08:35:01,409 INFO 10100 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-29 08:35:01,424 INFO 10100 [egg:core] dump config after load, 7ms
+2020-06-29 08:35:01,911 INFO 10100 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-06-29 08:35:01,911 INFO 10100 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-06-29 08:35:01,912 INFO 10100 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-06-29 08:35:01,912 INFO 10100 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-06-29 08:35:01,912 INFO 10100 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-06-29 08:35:01,912 INFO 10100 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-06-29 08:35:01,913 INFO 10100 [egg-watcher:agent] watcher start success
+2020-06-29 08:35:01,941 INFO 10100 [egg:core] dump config after ready, 16ms
+2020-06-29 19:53:30,904 ERROR 10100 nodejs.ClusterClientNoResponseError: client no response in 3112417ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 10100
+hostname: DESKTOP-H5UU7FJ
+

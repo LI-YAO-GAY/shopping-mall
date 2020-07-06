@@ -1,0 +1,40 @@
+2020-07-02 17:32:13,084 ERROR 8048 [-/127.0.0.1/-/10ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\前端\前端课程\项目\shopping-mall\server\app\public\avatar\1593682333073la5l9ce_104+7k465efcad4b96ea473328377cc5.png'
+ENOENTError: ENOENT: no such file or directory, open 'D:\前端\前端课程\项目\shopping-mall\server\app\public\avatar\1593682333073la5l9ce_104+7k465efcad4b96ea473328377cc5.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app\\public\\avatar\\1593682333073la5l9ce_104+7k465efcad4b96ea473328377cc5.png"
+name: "ENOENTError"
+pid: 8048
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-02 17:33:56,447 ERROR 8048 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\前端\前端课程\项目\shopping-mall\server\app\public\avatar\1593682436446la5l9ce_104+7k465efcad4b96ea473328377cc5.png'
+ENOENTError: ENOENT: no such file or directory, open 'D:\前端\前端课程\项目\shopping-mall\server\app\public\avatar\1593682436446la5l9ce_104+7k465efcad4b96ea473328377cc5.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app\\public\\avatar\\1593682436446la5l9ce_104+7k465efcad4b96ea473328377cc5.png"
+name: "ENOENTError"
+pid: 8048
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-02 17:34:51,658 ERROR 8048 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\前端\前端课程\项目\shopping-mall\server\app\public\avatar\1593682491657la5l9ce_104+7k465efcad4b96ea473328377cc5.png'
+ENOENTError: ENOENT: no such file or directory, open 'D:\前端\前端课程\项目\shopping-mall\server\app\public\avatar\1593682491657la5l9ce_104+7k465efcad4b96ea473328377cc5.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app\\public\\avatar\\1593682491657la5l9ce_104+7k465efcad4b96ea473328377cc5.png"
+name: "ENOENTError"
+pid: 8048
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-02 17:37:31,810 ERROR 8048 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\前端\前端课程\项目\shopping-mall\server\app\public\avatar\1593682651810la5l9ce_104+7k465efcad4b96ea473328377cc5.png'
+ENOENTError: ENOENT: no such file or directory, open 'D:\前端\前端课程\项目\shopping-mall\server\app\public\avatar\1593682651810la5l9ce_104+7k465efcad4b96ea473328377cc5.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app\\public\\avatar\\1593682651810la5l9ce_104+7k465efcad4b96ea473328377cc5.png"
+name: "ENOENTError"
+pid: 8048
+hostname: DESKTOP-H5UU7FJ
+

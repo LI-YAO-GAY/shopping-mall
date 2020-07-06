@@ -1,0 +1,73 @@
+2020-06-21 02:41:20,341 INFO 12992 [egg-logrotator] agent logger reload: got log-reload message
+2020-06-21 10:20:01,942 ERROR 12992 nodejs.ClusterClientNoResponseError: client no response in 27478279ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12992
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-21 11:02:02,345 INFO 10324 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-21 11:02:02,414 INFO 10324 [egg:core] dump config after load, 60ms
+2020-06-21 11:02:03,628 INFO 10324 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-06-21 11:02:03,628 INFO 10324 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-06-21 11:02:03,629 INFO 10324 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-06-21 11:02:03,629 INFO 10324 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-06-21 11:02:03,629 INFO 10324 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-06-21 11:02:03,629 INFO 10324 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-06-21 11:02:03,630 INFO 10324 [egg-watcher:agent] watcher start success
+2020-06-21 11:02:03,840 INFO 10324 [egg:core] dump config after ready, 193ms
+2020-06-21 15:17:41,211 ERROR 10324 nodejs.ClusterClientNoResponseError: client no response in 2397807ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 10324
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-22 08:43:23,380 INFO 8628 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-22 08:43:23,393 INFO 8628 [egg:core] dump config after load, 7ms
+2020-06-22 08:43:23,670 INFO 8628 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-06-22 08:43:23,670 INFO 8628 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-06-22 08:43:23,671 INFO 8628 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-06-22 08:43:23,671 INFO 8628 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-06-22 08:43:23,671 INFO 8628 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-06-22 08:43:23,672 INFO 8628 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-06-22 08:43:23,672 INFO 8628 [egg-watcher:agent] watcher start success
+2020-06-22 08:43:23,725 INFO 8628 [egg:core] dump config after ready, 13ms
+2020-06-22 14:34:27,707 INFO 8952 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-22 14:34:27,726 INFO 8952 [egg:core] dump config after load, 10ms
+2020-06-22 14:34:29,470 INFO 8952 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-06-22 14:34:29,470 INFO 8952 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-06-22 14:34:29,471 INFO 8952 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-06-22 14:34:29,471 INFO 8952 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-06-22 14:34:29,472 INFO 8952 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-06-22 14:34:29,472 INFO 8952 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-06-22 14:34:29,473 INFO 8952 [egg-watcher:agent] watcher start success
+2020-06-22 14:34:29,615 INFO 8952 [egg:core] dump config after ready, 15ms
+2020-06-22 19:49:07,291 ERROR 8952 nodejs.ClusterClientNoResponseError: client no response in 3003893ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 8952
+hostname: DESKTOP-H5UU7FJ
+
+2020-06-23 08:37:21,533 INFO 11888 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-23 08:37:21,605 INFO 11888 [egg:core] dump config after load, 62ms
+2020-06-23 08:37:22,450 INFO 11888 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-06-23 08:37:22,450 INFO 11888 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-06-23 08:37:22,452 INFO 11888 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-06-23 08:37:22,452 INFO 11888 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-06-23 08:37:22,452 INFO 11888 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-06-23 08:37:22,453 INFO 11888 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-06-23 08:37:22,454 INFO 11888 [egg-watcher:agent] watcher start success
+2020-06-23 08:37:22,873 INFO 11888 [egg:core] dump config after ready, 82ms
+2020-06-23 20:28:25,504 ERROR 11888 nodejs.ClusterClientNoResponseError: client no response in 4199685ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11888
+hostname: DESKTOP-H5UU7FJ
+

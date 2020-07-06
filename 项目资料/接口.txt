@@ -48,7 +48,7 @@ goods: 商品的详情信息
 10. 取消收藏(post)
 /cancelCollection
 参数:
-id:商品的cid
+id:商品的id
 
 11. 查询商品是否已收藏(post)
 /isCollection
@@ -56,6 +56,7 @@ id:商品的cid
 id:商品的id
 
 12. 加入购物车(post)
+/addShop
 参数:
 id:商品的id
 
@@ -90,7 +91,7 @@ order_id: 商品的order_id
 image: []
 
 18. 获取登录注册默认验证码(get)
-/v1/verify
+/verify
 
 19. 查询用户收货地址(get)
 /getAddress
@@ -140,7 +141,7 @@ password:密码
 verify:验证码
 
 27. 订单查询(get)
-/getMyOrder
+/myOrder
 
 28. 查询已评价(get)
 /alreadyEvaluated
@@ -149,6 +150,7 @@ verify:验证码
 /tobeEvaluated
 
 30. 查询单条评论(post)
+/evaluateOne
 参数: 
 id:商品id
 _id:数据库的那条id

@@ -1,0 +1,12 @@
+2020-07-05 10:30:45,136 INFO 11672 [egg-schedule]: register schedule D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-05 10:30:45,136 INFO 11672 [egg-schedule]: register schedule D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-07-05 10:30:45,136 INFO 11672 [egg-schedule]: register schedule D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-05 10:30:52,101 INFO 12240 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64747925ms at 2020-07-06 04:30:00.025
+2020-07-05 10:30:52,102 INFO 12240 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 48547899ms at 2020-07-06 00:00:00.001
+2020-07-05 10:30:52,102 INFO 12240 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 48548898ms at 2020-07-06 00:00:01.000
+2020-07-06 00:00:02,990 INFO 12240 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 86397723ms at 2020-07-07 00:00:00.672
+2020-07-06 00:00:03,632 INFO 12240 [Timer] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86397374ms at 2020-07-07 00:00:01.006
+2020-07-06 00:00:03,860 INFO 11672 [Job#159396480174814199629929267001] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js executing by app
+2020-07-06 00:00:04,049 INFO 11672 [Job#159396480344614199646419302001] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-07-06 00:00:04,513 INFO 11672 [Job#159396480174814199629929267001] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js execute succeed, used 598ms
+2020-07-06 00:00:04,691 INFO 11672 [Job#159396480344614199646419302001] D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 642ms

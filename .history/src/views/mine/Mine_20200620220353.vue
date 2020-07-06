@@ -1,0 +1,56 @@
+<template>
+  <div>
+    <div class="main">
+      <div>会员中心</div>
+      <div class="banner flex a-column a-center j-center">
+        <van-image
+          round
+          width="5rem"
+          height="5rem"
+          src="https://img.yzcdn.cn/vant/cat.jpeg"
+          class="m-t-40"
+        />
+        <div class="m-tb-10 F20 fw-600 color-666">欢迎您:</div>
+        <div class="m-b-40 F14 color-666">退出登录</div>
+      </div>
+      <div>
+        <van-tabbar-item badge="3">
+          <template #icon="props">
+            <img :src="props.active ? icon.active : icon.inactive" />
+          </template>
+        </van-tabbar-item>
+        <van-tabbar-item icon="search">标签</van-tabbar-item>
+        <van-tabbar-item icon="setting-o">标签</van-tabbar-item>
+      </div>
+      <div>会员中心</div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "",
+  props: {},
+  components: {},
+  data() {
+    return {};
+  },
+  methods: {},
+  mounted() {},
+  watch: {},
+  computed: {}
+};
+</script>
+
+<style scoped lang='scss'>
+.banner {
+  background: linear-gradient(
+    to top,
+    rgb(136, 206, 240),
+    rgb(235, 236, 238),
+    rgb(255, 255, 255),
+    rgb(235, 236, 238),
+    rgb(136, 206, 240)
+  );
+}
+</style>
