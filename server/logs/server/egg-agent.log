@@ -18,3 +18,32 @@ name: "unhandledExceptionError"
 pid: 1700
 hostname: DESKTOP-H5UU7FJ
 
+2020-07-06 09:08:53,982 INFO 16340 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-06 09:08:54,012 INFO 16340 [egg:core] dump config after load, 22ms
+2020-07-06 09:08:54,070 INFO 16340 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-07-06 09:08:54,070 INFO 16340 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-07-06 09:08:54,070 INFO 16340 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-07-06 09:08:54,071 INFO 16340 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-07-06 09:08:54,071 INFO 16340 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-07-06 09:08:54,071 INFO 16340 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-07-06 09:08:54,071 INFO 16340 [egg-watcher:agent] watcher start success
+2020-07-06 09:08:54,132 INFO 16340 [egg:core] dump config after ready, 52ms
+2020-07-06 15:20:57,790 INFO 7700 [egg:logger] init all loggers with options: {"dir":"D:\\前端\\前端课程\\项目\\shopping-mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-06 15:20:58,644 INFO 7700 [egg:core] dump config after load, 836ms
+2020-07-06 15:21:03,580 INFO 7700 [egg-watcher] Start watching: ["D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy","D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"]
+2020-07-06 15:21:03,581 INFO 7700 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app"
+2020-07-06 15:21:03,582 INFO 7700 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\config"
+2020-07-06 15:21:03,583 INFO 7700 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks"
+2020-07-06 15:21:03,583 INFO 7700 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\mocks_proxy"
+2020-07-06 15:21:03,583 INFO 7700 [egg-watcher] Start watching: "D:\\前端\\前端课程\\项目\\shopping-mall\\server\\app.js"
+2020-07-06 15:21:03,584 INFO 7700 [egg-watcher:agent] watcher start success
+2020-07-06 15:21:04,880 INFO 7700 [egg:core] dump config after ready, 1s
+2020-07-06 15:24:20,641 ERROR 7700 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7700
+hostname: DESKTOP-H5UU7FJ
+

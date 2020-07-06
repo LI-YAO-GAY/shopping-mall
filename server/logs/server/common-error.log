@@ -7,3 +7,474 @@ name: "unhandledExceptionError"
 pid: 1700
 hostname: DESKTOP-H5UU7FJ
 
+2020-07-06 10:33:00,938 ERROR 13928 [-/127.0.0.1/-/46ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:04,285 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:05,731 ERROR 13928 [-/127.0.0.1/-/7ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:05,887 ERROR 13928 [-/127.0.0.1/-/6ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:06,023 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:06,172 ERROR 13928 [-/127.0.0.1/-/6ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:06,314 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:06,440 ERROR 13928 [-/127.0.0.1/-/6ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:09,052 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:09,178 ERROR 13928 [-/127.0.0.1/-/6ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:11,831 ERROR 13928 [-/127.0.0.1/-/9ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:11,978 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:16,447 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:17,201 ERROR 13928 [-/127.0.0.1/-/8ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:17,349 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:17,487 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:17,641 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:18,956 ERROR 13928 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:32,473 ERROR 13928 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 10:33:32,632 ERROR 13928 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 11:54:46,008 ERROR 13928 [-/127.0.0.1/-/7ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (D:\前端\前端课程\项目\shopping-mall\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\前端\前端课程\项目\shopping-mall\server\app\middleware\isLogin.js:15:13
+    at async D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\前端\前端课程\项目\shopping-mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 13928
+hostname: DESKTOP-H5UU7FJ
+
+2020-07-06 15:24:20,376 ERROR 7700 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7700
+hostname: DESKTOP-H5UU7FJ
+
